@@ -1,7 +1,7 @@
-import React from "react";
 import { AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai";
 import { FaSearch } from "react-icons/fa";
 import { useAppSelector } from "../redux/hooks";
+import ecomm from "./images/ecomm-removebg-preview.png";
 
 const Navbar = ({ setShowCart }: any) => {
   const cartCount = useAppSelector((state) => state.cartReducer.length);
@@ -9,8 +9,9 @@ const Navbar = ({ setShowCart }: any) => {
     <div className="pt-4 bg-white top-0 sticky">
       <div className="container">
         {" "}
-        <div className="flex justify-between items-center">
-          <h1 className="text-4xl font-bold">Logo</h1>
+        <div className="flex justify-between  items-center">
+          <img className="h-[70px] ml-10 w-[100px]" src={ecomm}></img>
+
           <div className="lg:flex hidden w-full max-w-[500px]  ">
             <input
               className="border-2 border-accent px-6 py-2 w-full"

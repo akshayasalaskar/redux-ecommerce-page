@@ -1,7 +1,3 @@
-import { Provider } from "react-redux";
-import { store } from "../redux/store";
-import Navbar from "./Navbar";
-
 const Hero = () => {
   return (
     <div className="bg-[#E3EDF6] mt-4 h-50">

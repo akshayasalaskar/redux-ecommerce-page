@@ -26,8 +26,6 @@ const data = [
   },
 ];
 
-import React from "react";
-
 const Feature = () => {
   return (
     <div className="container grid gap-1 sm:grid-cols-2 lg:grid-cols-4 mt-8">
