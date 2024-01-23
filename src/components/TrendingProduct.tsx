@@ -22,48 +22,6 @@ const products = [
     title: "Bluetooth Headphone",
     price: "59.00",
   },
-  {
-    id: 2,
-    img: mensjacket,
-    category: "MensJacket",
-    title: "Mens Jacket",
-    price: "59.00",
-  },
-  {
-    id: 3,
-    img: tv,
-    category: "Television",
-    title: "LED TV",
-    price: "59.00",
-  },
-  {
-    id: 4,
-    img: musicsystem,
-    category: "MusicSystem",
-    title: "Music System",
-    price: "59.00",
-  },
-  {
-    id: 5,
-    img: womendress,
-    category: "Women Dress",
-    title: "Women Dress",
-    price: "59.00",
-  },
-  {
-    id: 6,
-    img: googlepixel,
-    category: "GooglePixel",
-    title: "Google Pixels Phone",
-    price: "59.00",
-  },
-  {
-    id: 7,
-    img: cover,
-    category: "PhoneCase",
-    title: "Phone Case",
-    price: "59.00",
-  },
 ];
 
 import ProductCrad from "./ProductCrad";

@@ -18,11 +18,11 @@ const App = () => {
       <Provider store={store}>
         <Navbar setShowCart={setShowCart} />
         {showCart && <Cart setShowCart={setShowCart} />}
-        <Hero />
-        <Feature />
+        {/* <Hero /> */}
+        {/* <Feature /> */}
         <TrendingProduct />
-        <Banner />
-        <NewArrival />
+        {/* <Banner /> */}
+        {/* <NewArrival /> */}
         <Footer />
         <Toaster position="bottom-center" reverseOrder={false} />
       </Provider>
